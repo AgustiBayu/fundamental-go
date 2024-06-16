@@ -14,7 +14,7 @@ func Aritmatika() {
 	sayHey()
 }
 func sayHey() {
-	fmt.Println("Sudah Selesai akhhirnya")
+	fmt.Println("Apakabar Fatiha")
 }
 func tambah() int {
 	return a + b
