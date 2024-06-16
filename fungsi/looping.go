@@ -2,11 +2,11 @@ package fungsi
 
 import "fmt"
 
-var dataku = [3]int{
-	1, 2, 3}
+var fruits = [3]string{
+	"melon", "apel", "jambu"}
 
-func Output() {
-	for i := 0; i < len(dataku); i++ {
-		fmt.Println(dataku[i])
+func MyFruits() {
+	for i := 0; i < len(fruits); i++ {
+		fmt.Println(fruits[i])
 	}
 }
