@@ -10,6 +10,7 @@ func Aritmatika() {
 	fmt.Println(kurang())
 	fmt.Println(kali())
 	fmt.Println(bagi())
+	fmt.Println(mod())
 }
 func tambah() int {
 	return a + b
@@ -22,4 +23,7 @@ func kali() int {
 }
 func bagi() int {
 	return a / b
+}
+func mod() int {
+	return a % b
 }
