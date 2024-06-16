@@ -11,6 +11,10 @@ func Aritmatika() {
 	fmt.Println(kali())
 	fmt.Println(bagi())
 	fmt.Println(mod())
+	sayHey()
+}
+func sayHey() {
+	fmt.Println("Sudah Selesai akhhirnya")
 }
 func tambah() int {
 	return a + b
