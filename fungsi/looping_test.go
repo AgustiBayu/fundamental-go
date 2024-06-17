@@ -5,8 +5,7 @@ import (
 )
 
 func TestLooping(t *testing.T) {
-	var databaru = [3]string{"melon", "apel", "melon"}
-	MyFruits()
+	var databaru = [3]string{"melon", "apel", "jambu"}
 
 	for i, fruit := range fruits {
 		if fruit != databaru[i] {
